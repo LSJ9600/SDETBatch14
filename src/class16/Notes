@@ -1,0 +1,60 @@
+Types of variables in Java with respect to their scope:
+    There are 3 types of variables in Java with respect to their scope.
+    1. Local 2. Instance 3. Static
+
+Local Variable:
+    Local variable are called If a variable is declared inside a block of code like method, loop, if-condition.
+
+Up-Side of a Local Variable:
+    1.They exist for a very short amount of time in the memory.
+    2.Other programs on our computer can use that memory.
+
+Down-Side of a Local Variable:
+    1.Their scope is very limited, we can access them only within the block in which they are created not outside.
+
+When to use a Local Variable:
+    Use it over instance variable whenever it is possible.
+
+Instance Variable:
+    Instance variable are called variables that are written inside a class but outside a block of code.
+
+Up-Side of a Instance Variable:
+    1.We can use these variables inside any block of code that is inside that class.
+
+Down-Side of a Instance Variable:
+    1.They occupy the memory for longer than a local variable.
+
+When to use a Instance Variable:
+    1.When we need to share a value between two or more methods.
+    2.When we are planning to create multiple objects of a class and it is possible that all the objects can have a
+    different value for that variable.
+
+Static Variable:
+    Static variable are called an instance variable with a static keyword.
+
+Up-Side of a Static Variable:
+    1.We can share data across the objects with the help of static variable.
+
+Down-Side of a Static Variable:
+    1.They occupy the memory for the longest
+
+When to use a Static Variable:
+    1.When we want to share something across all the methods.
+
+====================================================================================================================
+Access Modifiers:
+    Access modifiers are keywords which control the access of fields or methods or the class itself.
+    These are only applicable to instance or static variable not to local variable.
+
+    There are 4 types of access levels and 3 access modifier keywords.
+    1.Private - most restricted one - it can be used only in the class specifically mentioned - use it always -
+              UPSIDE: it is the most secured one - DOWNSIDE:Restricted so cant access anywhere else
+    2.Protected
+    3.Default - Automatically access when no keyword is used - used within the same package -
+    4.Public - used all over any package or class within the project - you need to import it
+
+    *We can have only one public class in a file that matches the name of the file.
+
+
+
+

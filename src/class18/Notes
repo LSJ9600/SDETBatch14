@@ -1,0 +1,22 @@
+Constructors:
+    They help us give initial values to the fields of a class.
+
+Why we should use a constructor?
+    1.They help us write cleaner code.
+    2.They give us more control over the values that an end use can assign to the field of a class.
+
+Syntax of Constructor:
+    Access modifier className (parameters) {
+    }
+
+    Class Dog{
+    String Name;
+    public dog (String dogName) {
+    name=dogName;
+    }
+    }
+
+
+
+
+

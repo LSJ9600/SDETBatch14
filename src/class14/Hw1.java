@@ -1,22 +1,29 @@
 package class14;
 
+import java.util.Scanner;
+
 public class Hw1 {
 
     //Create a method that will take 2 parameters as a numbers and prints which number is larger.
 
-    static int max(int num1, int num2) {
-        int largest;
-
-        if (num1>num2) {
-            largest=num1;
+    void printLarger (int num1,int num2){
+        if(num1>num2){
+            System.out.println("Number 1 is larger "+num1);
+        }else if(num2>num1){
+            System.out.println("Number 2 is larger "+num2);
         }else {
-            largest=num2;
+            System.out.println("Numbers are equal");
         }
-        return largest;
     }
 
     public static void main(String[] args) {
-        Hw1 hw= new Hw1();
-        System.out.println("The largest number is " + Hw1.max(9,4));
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please Enter the first Number");
+        int number1 = scanner.nextInt();
+        System.out.println("Please Enter the second Number");
+        int number2 = scanner.nextInt();
+        Hw1 task1 = new Hw1();
+        task1.printLarger(number1, number2);
+
     }
 }

@@ -1,0 +1,16 @@
+Access Modifiers:
+    Access modifiers are keywords which control the access of fields or methods or the class itself.
+    These are only applicable to instance or static variable not to local variable.
+
+    There are 4 types of access levels and 3 access modifier keywords.
+    1.Private - most restricted one - it can be used only in the class its mentioned in - use this keyword always -
+              UPSIDE: it is the most secured one - DOWNSIDE:Restricted so cant access anywhere else
+    2.Default - Automatically access when no keyword is used - used within the same package -
+    3.Public - used all over any package or class within the project - you need to import it - usually the class
+               itself and method are declared as public
+    4.Protected - can be access outside of package as well but only in the class that have parent-child relationship
+
+ *NOTE: If we are inside a same class we can call a method inside another method by just writing its name.
+        But we need to take care that these methods are both either static or non-static.
+
+
