@@ -3,7 +3,7 @@ package Review;
 public class Shelter {
     public static void main(String[] args) {
 
-        //acessing static - use class name
+        //accessing static - use class name
         Dog.breed="Huskey";
         Dog dog1=new Dog();
         //how to access instance variables? - through object variable
@@ -32,6 +32,9 @@ public class Shelter {
 
         System.out.println(dog1.bark());
         System.out.println(dog2.bark());
+
+        dog1.love("to jump");
+        dog2.love("to play");
 
     }
 }
